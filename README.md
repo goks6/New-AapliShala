@@ -1,0 +1,2 @@
+# New-AapliShala
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f6ed4e4b7c5e459cb5dad48daa373db5)](https://app.codacy.com/gh/goks6/New-AapliShala?utm_source=github.com&utm_medium=referral&utm_content=goks6/New-AapliShala&utm_campaign=Badge_Grade)
