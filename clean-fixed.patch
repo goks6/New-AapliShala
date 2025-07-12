@@ -1,0 +1,14 @@
+diff --git a/AapliShalaApp/hooks/useThemeColor.ts b/AapliShalaApp/hooks/useThemeColor.ts
+index 1234567..abcdef0 100644
+--- a/AapliShalaApp/hooks/useThemeColor.ts
++++ b/AapliShalaApp/hooks/useThemeColor.ts
+@@ -11,7 +11,7 @@
+-  colorName: keyof typeof Colors.light & keyof typeof Colors.dark
++  colorName: keyof typeof Colors.light
+diff --git a/AapliShalaApp/components/Collapsible.tsx b/AapliShalaApp/components/Collapsible.tsx
+index 89abcd1..789efgh 100644
+--- a/AapliShalaApp/components/Collapsible.tsx
++++ b/AapliShalaApp/components/Collapsible.tsx
+@@ -18,7 +18,7 @@
+-        onPress={() => setIsOpen((value) => !value)}
++        onPress={() => { setIsOpen((value) => !value); }}
